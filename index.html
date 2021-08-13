@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+<style>
+        @media (min-width: 992px) {
+            .alto-100 {
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<nav class="navbar navbar-expand-lg text-white navbar-white bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navegación</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body>
+  <h3 class="container d-flex align-items-center justify-content-center mt-3">
+   Hola Mundo! Desarrollo Web, 
+    <small class="text-muted m-1"> soluciones tecnológicas. </small>
+  </h3>
+    <main class="container d-flex align-items-center justify-content-center alto-100">
+
+         <div class="row">
+             <!--columna izquierda-->
+                <div class="col-12 col-lg-9">
+                    <div class="row">
+                      
+                        <div class="col-12 col-lg-8 p-2">
+                         <article class="card h-100 bg-success">
+                             <div class="card-body">
+                                 <div class="d-flex mb-3">
+                                     <img src="./img/avatar1.jpg" alt="" class="border border-3 border-secondary rounded-circle">
+                                    <div class="ps-3">
+                                        <h6 class="m-0 h6">Jorge García</h6>
+                                        <p class="m-0 h6">DevOps</p>
+                                    </div>
+                                    </div>
+                                    <div>
+                                        <p class="h6">DevOps (a portmanteau of “development” and “operations”) is a concept dealing with, among other things: software development, operations, and services. It emphasizes communication, collaboration, and integration between software developers and information technology (IT) operations personnel.</p>
+                                       
+                                    </div>
+                             </div>
+                         </article>
+                        </div>
+                      
+                        <div class="col-12 col-lg-4 p-2">
+                            <article class="card h-100 bg-primary">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <img src="./img/avatar2.jpg" alt="" class="border border-3 border-secondary rounded-circle">
+                                       <div class="ps-3">
+                                           <h6 class="m-0 h6">Roberto González</h6>
+                                           <p class="m-0 h6">UI/UX developer</p>
+                                       </div>
+                                       </div>
+                                       <div>
+                                           <p class="h6">A UI/UX developer is responsible for the website or application experience of visitors. UI/UX Developers must have a great understanding of user behavior and can be viewed as part psychologist and part web developer. Usually, good UX developers will understand how to align business/marketing goals with technology.</p>
+                                          
+                                       </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-lg-4 p-2">
+                            <article class="card h-100 bg-warning">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <img src="./img/avatar3.jpg" alt="" class="border border-3 border-secondary rounded-circle">
+                                       <div class="ps-3">
+                                           <h6 class="m-0 h6">Mario Gómez</h6>
+                                           <p class="m-0 h6">Front End Developer</p>
+                                       </div>
+                                       </div>
+                                       <div>
+                                           <p class="h6"> Front end development refers to the management of the client-facing aspect or the front end of websites. This covers everything that the user sees, from text and images to menus and navigation bars. Front end developers are in charge of this.</p>
+                                           
+                                       </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-lg-8 p-2">
+                            <article class="card h-100 bg-danger">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <img src="./img/avatar4.jpg" alt="" class="border border-3 border-secondary rounded-circle">
+                                       <div class="ps-3">
+                                           <h6 class="m-0 h6">Olivia Fernández</h6>
+                                           <p class="m-0 h6">Back End Developer</p>
+                                       </div>
+                                       </div>
+                                       <div>
+                                           <p class="h6">A back end developer is a person working on server-side technologies. Who is responsible for making the website work? It focuses on interacting with the database and writes scripts on the server to automate some tasks. It merely focuses on server-side logic to be implemented. It handles data on what to show and what to hide from the client.</p>
+                                           
+                                       </div>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+             <!--columna derecha-->
+                <div class="col-12 col-lg-3 p-2">
+                    <article class="card h-100 bg-secondary">
+                        <div class="card-body">
+                            <div class="d-flex mb-3">
+                                <img src="./img/avatar5.jpg" alt="" class="border border-3 border-secondary rounded-circle">
+                               <div class="ps-3">
+                                   <h6 class="m-0 h6">Fabiola Rodríguez</h6>
+                                   <p class="m-0 h6">Software Tester</p>
+                               </div>
+                               </div>
+                               <div>
+                                   <p class="h6"> A software tester is an individual that tests software for bugs, errors, defects or any problem that can affect the performance of computer software or an application. Software testers are part of a software development team and perform functional and non-functional testing of software using manual and automated software testing techniques.</p>
+                                  
+                               </div>
+                        </div>
+                    </article>
+                </div>
+
+        </div>
+
+        
+
+       
+         
+    </main>
+    
+    <article class="d-grid gap-2 d-md-flex justify-content-md-center">
+    <div class="mb-3 col-sm-7 m-5">
+          <label for="exampleFormControlInput1" class="form-label ">Email</label>
+         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+    </article>
+    <article class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <div class="mb-3 col-sm-7 m-5">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </article>
+          <div class="mb-3">
+         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+       
+        <button class="btn btn-primary m-5" type="button">Button</button>
+      </div>
+      </div>
+</body>
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Flor Meraki</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>
